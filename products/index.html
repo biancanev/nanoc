@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Nano C</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li class="active"><a href="#">Products</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+<div class="container text-center">    
+  <h3>Our Products</h3><br>
+  <div class="container">
+  <h2>Anode Series</h2>
+  <p>A line of cases fit for certain iPhones</p>            
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Model No.</th>
+        <th>Compatible Phones</th>
+        <th>Features</th>
+        <th>Availability</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Adode 5</td>
+        <td>iPhone 5, iPhone5S, iPhone5C</td>
+        <td>Wireless Charging, nano suction, built-in wallet</td>
+        <td class="text-secondary">Not Released</td>
+      </tr>
+      <tr>
+        <td>Adode 6</td>
+        <td>iPhone 6, iPhone 6S</td>
+        <td>Wireless charging, nano suction, buit-in wallet</td>
+        <td class="text-danger">Out of Stock</td>
+      </tr>
+      <tr>
+        <td>Adode 6P</td>
+        <td>iPhone 6+</td>
+        <td>Wireless Charging, nano suction, built-in wallet</td>
+        <td class="text-secondary">Not Released</td>
+      </tr>
+      <tr>
+        <td>Adode 7</td>
+        <td>iPhone 7</td>
+        <td>Wireless charging, nano suction, built-in wallet</td>
+        <td class="text-danger">Out of Stock</td>
+      </tr>
+      <tr>
+        <td>Adode 7P</td>
+        <td>iPhone 7+</td>
+        <td>Wireless Charging, nano suction, built-in wallet</td>
+        <td class="text-secondary">Not Released</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="container">
+  <h2>Cathode Series</h2>
+  <p>A line of cases fit for certain Android Phones</p>            
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Model No.</th>
+        <th>Compatible Phones</th>
+        <th>Features</th>
+        <th>Availability</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Cathode 1</td>
+        <td>Samsung Galaxy Note 9</td>
+        <td>Wireless Charging, nano suction, built-in wallet</td>
+        <td class="text-secondary">Not Released</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>&copy; 2019 Keenan Kalra John Kim, Ryan Kwong, and Ashton Lee</p>
+</footer>
+
+</body>
+</html>
